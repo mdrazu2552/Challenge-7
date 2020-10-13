@@ -1,0 +1,329 @@
+.mid{
+    width: 65%;
+    margin: auto;
+}
+body{
+    background-image: url(./img/bg.png);
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* left-side css */
+.title{}
+.title h1 {
+    font-size: 64px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-bottom: -49px;
+}
+.title h1:nth-child(3),:nth-child(4){
+    color: #6c9ce4;
+}
+
+.about-me {
+    margin-top: 117px;
+}
+.about-me h1 {
+    color: #c0c0c2;
+    font-size: 67px;
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+.about-me h1{}
+.about-me p {
+    color: #444;
+    margin-bottom: 11px;
+    width: 87%;
+    font-size: 14px;
+}
+.work h1{
+    color: #c0c0c2;
+    font-size: 67px;
+    font-weight: bold;
+    margin-bottom: 22px;
+    margin-top: 34px;
+}
+.work ul{
+    padding-left: 0;
+}
+.work ul li a {
+    display: inline-block;
+    color: #555;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+.work ul li span {
+    color: #999999;
+    display: inline-block;
+    margin-right: 10px;
+}
+.work ul li:nth-child(1) a{
+    color:#2067d4;
+}
+.work ul li:hover a{
+    color:#2067d4;
+}
+.get-in-touch h1{
+    color: #c0c0c2;
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 22px;
+    margin-top: 34px;
+    margin-bottom: 8px;
+}
+.get-in-touch p {
+    color: #000;
+    font-size: 15px;
+    margin: 22px 0;
+}
+.get-in-touch input {
+    margin-bottom: 10px;
+}
+.get-in-touch textarea {
+    border: 1px solid #9999;
+}
+.s-button {
+    align-self: center;
+    background-image: url(./img/shape.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    padding: 13px 18px;
+    position: relative;
+    top: -18px;
+    left: -2px;
+    color: #fff;
+    background-size: 71%;
+}
+
+.contact-item {
+    margin-top: 14px;
+}
+.contact-details h3 {
+    color: #444;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.icon i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #c0c0c2;
+    color:#fff;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.details {
+    margin-top: -3px;
+}
+.details span {
+    display: block;
+    font-size: 14px;
+    color: #666;
+}
+.details a {
+    display: block;
+    font-size: 13px;
+    margin-top: -3px;
+}
+
+
+
+
+
+
+
+/* right-side css */
+
+.menu ul {
+    position: relative;
+    top: 63px;
+    left: 51px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a {
+    background-image: url(./img/shape.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    display: block;
+    padding: 25px 21px;
+    color: #fff;
+    transition: .4s;
+}
+.menu ul li:hover a{
+    background-image: url(./img/hover_shape.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+.menu ul li:nth-child(1) a{
+    background-image: url(./img/hover_shape.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+.welcome {
+    margin-top: 83px;
+}
+.welcome h1 {
+    color: #c0c0c2;
+    font-size: 62px;
+    font-weight: bold;
+    margin-bottom: 22px;
+    margin-top: 34px;
+    margin-bottom: 8px;
+}
+.welcome p {
+    color: #444;
+    margin-bottom: 11px;
+    font-size: 14px;
+}
+.banner img {
+    width: 100%;
+    margin-top: 51px;
+}
+span.a1 {
+    position: relative;
+    left: :1px;
+    display: inline-block;
+    font-size: 27px;
+    bottom: 300px;
+    cursor: pointer;
+    left: -15px;
+}
+span.a2 {
+    position: relative;
+    right: -465px;
+    display: inline-block;
+    font-size: 27px;
+    bottom: 300px;
+    cursor: pointer;
+}
+
+
+/* Skill section css */
+.skill {
+    height: 323px;
+}
+.skill h1{
+    color: #c0c0c2;
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 22px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+.skill p{
+    color: #000;
+    font-size: 15px;
+    margin: 22px 0;
+}
+.skill-list {
+    transform: rotate(-90deg);
+    width: 223px;
+    margin-right: -42px;
+    position: relative;
+    right: -97px;
+    top: -164px;
+}
+.skill-list ul {
+    padding-left: 0;
+    border-left: 2px solid #999999;
+    border-top: 2px solid #999999;
+    position: relative;
+    right: 52px;
+    top: 25px;
+}
+.skill-list ul li {
+    color: #000;
+    font-size: 15px;
+    padding: 13px;
+    margin-top: 9px;
+}
+.skill-list ul li:nth-child(odd){
+    background-color: #c0c0c2;
+}
+.skill-list ul li:nth-child(even){
+    background-color: #b9d1f5;
+}
+.skill-list ul li:nth-child(1){
+    width: 90%;
+}
+.skill-list ul li:nth-child(2){
+    width: 80%;
+}
+.skill-list ul li:nth-child(3){
+    width: 40%;
+}
+.skill-list ul li:nth-child(4){
+    width: 70%;
+}
+.skill-list ul li:nth-child(5){
+    width: 50%;
+}
+.skill-list ul li:nth-child(6){
+    width: 60%;
+}
+.skill-list ul li:nth-child(7){
+    width: 30%;
+}
+
+/* tecnology css */
+
+.tecnology h3 {
+    color: #444;
+    font-size: 21px;
+    margin-top: 37px;
+}
+
+.t-gal img {
+    width: 47px;
+    display: inline-block;
+    margin-right: 9px;
+    margin-top: 16px;
+}
+/* help section css */
+.help-section{
+    border-bottom: 1px solid #ddd);
+}
+.help-details {
+    width: 80%;
+    margin: auto;
+  
+}
+.help-details img {
+    width: 297px;
+    display: inline-block;
+}
+
+.help-content h1 {
+    color: #c0c0c2;
+    font-size: 55px;
+    font-weight: bold;
+}
+.help-content ul {
+    padding-left: 52px;
+    list-style-type: disc;
+}
+.help-content ul li {
+    color: #000;
+    margin-bottom: 7px;
+}
+.top {
+    background-image: url(./img/shape.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    right: -460px;
+    bottom: -6px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-size: 60%;
+    color: #fff;
+}
